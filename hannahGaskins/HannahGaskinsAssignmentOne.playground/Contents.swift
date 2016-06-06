@@ -23,6 +23,8 @@ stringToInt(hi)
 var special = "😱"
 stringToInt(special)
 
+var anotherTest = "@#@"
+stringToInt(anotherTest)
 
 // 2. Write a function that takes in a tuple (code, message) and returns a string by using interpolation
 
