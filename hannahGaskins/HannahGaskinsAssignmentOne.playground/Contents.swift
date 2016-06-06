@@ -11,16 +11,17 @@
 
 
 func stringToInt(string: String) -> Int? {
-    
     return Int(string)
 }
 
 var numbers = "1234"
 stringToInt(numbers)
 
-var test = "hiya"
-stringToInt(test)
+var hi = "hiya"
+stringToInt(hi)
 
+var special = "😱"
+stringToInt(special)
 
 
 // 2. Write a function that takes in a tuple (code, message) and returns a string by using interpolation
@@ -32,7 +33,6 @@ func tupleToString(code: String, message: String) -> String {
 }
 
 tupleToString("Mary Poppins", message: "bibidy bobidy boop")
-
 
 
 // 3. Write a function that take in a string, and returns a message: “String contains n characters”
@@ -50,8 +50,8 @@ characterCount("!@#$%^&*()_+}{|?>:~")
 characterCount("123456789")
 
 
-
 // 4. Write a function that takes in a string and reverses it. Use a simple for loop
+
 
 
 func stringReverse(stringToReverse: String) -> String {
@@ -67,6 +67,7 @@ stringReverse("hiya Laura, let's get steps this summer!")
 
 
 // Bonus: Declare a variable that’s function. Implement function to take in a string (name) and return greeting message.
+
 
 
 func greetingMessage(name: String) -> String {
